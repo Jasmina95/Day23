@@ -22,6 +22,7 @@ class App extends Component {
   handleSubmit = (character) => {
     this.setState({ characters: [...this.state.characters, character] });
   };
+
   render() {
     const { characters } = this.state;
     return (

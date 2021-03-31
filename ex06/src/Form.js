@@ -20,6 +20,7 @@ class Form extends Component {
     this.props.handleSubmit(this.state);
     this.setState(this.initialState);
   };
+
   render() {
     const { firstName, lastName } = this.state;
 
