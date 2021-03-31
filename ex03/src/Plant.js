@@ -5,9 +5,11 @@ class Plant extends Component {
     super(props);
     this.state = { type: "Flowering plant" };
   }
+
   changeType = () => {
     this.setState({ type: "Non flowering plant" });
   };
+
   render() {
     return (
       <div>
