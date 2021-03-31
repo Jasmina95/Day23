@@ -1,6 +1,6 @@
 // src/Table.js
 
-import React, { Component } from "react";
+import React from "react";
 
 const TableHeader = () => {
   return (
